@@ -1,0 +1,1373 @@
+# KAIROS// 
+# THE MASTER PRODUCT, ENGINEERING, ARCHITECTURE & VISUAL GENERATION DIRECTIVE
+
+## BUILD THE ENTIRE APPLICATION FROM ZERO
+
+You are acting as a combined team of:
+
+- Chief Technology Officer
+- Principal Software Architect
+- Senior Full-Stack Engineer
+- AI Systems Architect
+- Multi-Agent Systems Engineer
+- Quantitative Financial Engineer
+- Data Visualization Engineer
+- Product Designer
+- Enterprise Security Architect
+- Quality Assurance Engineer
+
+Your assignment is to conceive, architect, engineer and build an entire production-oriented application named:
+
+# KAIROS//
+### THE OPERATING SYSTEM FOR DECISIONS
+
+This is a completely new project.
+
+There is no existing application to upgrade, no existing dashboard to modify and no existing implementation to preserve.
+
+Build KAIROS from the ground up.
+
+Do not provide a development roadmap instead of building the application. Do not stop after generating a landing page. Do not create a collection of disconnected UI screens. Do not ask for permission before implementing individual modules.
+
+Make the necessary architectural and implementation decisions independently.
+
+Build the most complete, coherent and functional application that the available environment supports.
+
+If a particular external integration requires credentials or infrastructure unavailable in this environment, implement its complete integration interface, configuration requirements, graceful fallback and clearly labelled setup instructions. Never pretend that an unconfigured integration is operational.
+
+---
+
+# PART I — THE PRODUCT VISION
+
+## 1. What is KAIROS?
+
+KAIROS is an AI-native strategic decision intelligence platform.
+
+It is designed to help individuals, businesses, founders, executives, analysts, investors and organizations investigate complex situations, evaluate alternatives, simulate possible futures and execute better decisions.
+
+Most existing software helps people manage information.
+
+KAIROS should help people understand the consequences of acting on that information.
+
+Its central purpose is to connect:
+
+INTELLIGENCE → EVIDENCE → REASONING → SIMULATION → DECISION → EXECUTION → REALITY → LEARNING
+
+KAIROS must operate as a continuous decision intelligence system rather than a conventional chatbot.
+
+A user should be able to introduce a complicated strategic problem and use KAIROS to:
+
+1. Understand the problem.
+2. Define objectives and constraints.
+3. Gather relevant information.
+4. Organize evidence and relationships.
+5. Investigate competing explanations.
+6. Challenge assumptions.
+7. Analyze financial and operational implications.
+8. Simulate alternative futures.
+9. Identify risks and uncertainties.
+10. Compare strategic options.
+11. Produce a defensible recommendation.
+12. Approve and convert the recommendation into an execution plan.
+13. Monitor actual outcomes.
+14. Learn from the difference between predictions and reality.
+
+## 2. The central differentiator
+
+KAIROS must connect three capabilities that are frequently disconnected in ordinary software:
+
+**A. Intelligence:** What do we know, what do we not know, and what evidence supports our understanding?
+
+**B. Simulation:** What could happen under different assumptions, constraints and decisions?
+
+**C. Reality:** What actually happened, how did it compare with our predictions, and what did we learn?
+
+The platform must preserve the relationship between the original evidence, assumptions, calculations, recommendations, approvals and eventual outcomes.
+
+Every important conclusion should be traceable.
+
+A recommendation without evidence, a financial projection without assumptions or a simulation without reproducible inputs is not acceptable.
+
+---
+
+# PART II — THE PRODUCT ARCHITECTURE
+
+## 3. Main application environments
+
+Build the following fully integrated application environments:
+
+1. Executive Command Centre
+2. Decision Lab
+3. Intelligence Network
+4. Agent Council
+5. Simulation Chamber
+6. Execution Room
+7. Reality Monitor
+8. Research Library
+9. Decision Archive
+10. System Administration and Settings
+
+Every environment must have a meaningful purpose and working navigation.
+
+Use persistent application navigation with a collapsible sidebar and a compact top-level command bar.
+
+### Global navigation
+
+- Command Centre
+- Decision Lab
+- Intelligence Network
+- Agent Council
+- Simulation Chamber
+- Execution Room
+- Reality Monitor
+- Research Library
+- Decision Archive
+- Settings
+
+Include global search, notifications, workspace selection, user profile and a prominent Create Decision action.
+
+Create contextual navigation inside individual decisions so that users can move between overview, evidence, agents, risks, simulations, recommendations, approvals and outcomes.
+
+---
+
+# PART III — THE VISUAL DESIGN SYSTEM
+
+## 4. Design philosophy
+
+The visual experience is a major part of this assignment.
+
+KAIROS must not look like a generic AI SaaS dashboard, an ordinary admin panel, a template-generated website or a collection of basic charts.
+
+The intended visual identity is:
+
+**Executive Intelligence Terminal × Strategic Command Centre × Quantitative Simulation Laboratory.**
+
+Use the design sophistication associated with advanced enterprise intelligence software, professional financial terminals and premium strategic analysis tools.
+
+Take inspiration from the information density and precision of sophisticated financial software, the interconnected intelligence visualizations of advanced analytical platforms and the clean interaction design of premium productivity software.
+
+Do not copy any company's branding or proprietary interface.
+
+### Colour system
+
+Use a restrained, premium palette.
+
+- Obsidian: #111315
+- Graphite: #202326
+- Elevated Graphite: #292D30
+- Champagne Gold: #C0A477
+- Warm Ivory: #E7E2D9
+- Steel Grey: #777E80
+- Muted Sage: #667F72
+- Subtle borders: rgba(231,226,217,0.10)
+
+Champagne gold should be used selectively for important highlights, active states and key intelligence.
+
+Use warm ivory for primary text, steel grey for supporting information and muted sage for suitable positive or stable states.
+
+Do not make the application predominantly blue.
+
+### Typography
+
+Use:
+
+- Geist or Inter for primary interface typography.
+- Instrument Serif sparingly for distinctive editorial moments.
+- IBM Plex Mono for numerical values, timestamps, technical metadata and financial information.
+
+Typography should establish a strong information hierarchy.
+
+### Visual rules
+
+- Desktop-first, fully responsive.
+- Dense but readable layouts.
+- Strong alignment and consistent spacing.
+- Precise borders and subtle separators.
+- Restrained transitions.
+- Sophisticated data visualization.
+- Contextual side panels.
+- Carefully designed tables.
+- Consistent icons.
+- Meaningful visual hierarchy.
+
+Avoid:
+
+- Generic AI illustrations.
+- Robot and brain imagery.
+- Neon cyberpunk styling.
+- Electric blue and purple gradients.
+- Excessive glassmorphism.
+- Glowing borders.
+- Floating decorative orbs.
+- Huge empty hero sections.
+- Excessive rounded cards.
+- Generic stock illustrations.
+- Decorative charts without analytical meaning.
+- Fake holograms.
+- Unnecessary animation.
+
+The application should feel premium, intelligent, serious and engineered.
+
+---
+
+# PART IV — THE EXECUTIVE COMMAND CENTRE
+
+## 5. Main workspace
+
+Build a sophisticated executive dashboard.
+
+It should immediately communicate the state of the user's decision-making environment.
+
+### Header
+
+Include:
+
+- KAIROS identity.
+- Current workspace.
+- Date and time.
+- System status.
+- Global search.
+- Notifications.
+- Profile.
+- Create Decision action.
+
+### Intelligence indicators
+
+Display real database-derived metrics:
+
+- Active decisions.
+- Evidence records.
+- Active investigations.
+- Pending approvals.
+- Completed simulations.
+- Monitored decisions.
+
+Never invent live counts.
+
+### Main intelligence canvas
+
+The central area should feature the Living Intelligence Network described in Part V.
+
+Surround it with compact contextual panels.
+
+### Executive attention panel
+
+Highlight genuinely important matters:
+
+- Unresolved strategic questions.
+- Contradictory evidence.
+- High-impact risks.
+- Decisions awaiting approval.
+- Significant changes in monitored assumptions.
+- Execution items requiring attention.
+
+### Intelligence activity feed
+
+Show actual platform events:
+
+- Research completed.
+- New evidence added.
+- Agent investigation completed.
+- Risk identified.
+- Simulation updated.
+- Decision approved.
+- Milestone completed.
+- Forecast deviation detected.
+
+Include timestamps and links to the relevant records.
+
+### Empty workspace
+
+If the user has not created any decisions, display an elegant onboarding experience.
+
+Use clearly labelled illustrative examples only when necessary.
+
+Never represent demo information as real organizational intelligence.
+
+---
+
+# PART V — THE SIGNATURE VISUAL: LIVING INTELLIGENCE NETWORK
+
+## 6. Build a genuine interactive knowledge graph
+
+This is one of the most important components of KAIROS.
+
+Do not create a basic graph consisting of a few circles connected by straight lines.
+
+Build an advanced, explorable intelligence network.
+
+### Entity types
+
+Represent:
+
+- Decisions.
+- Companies.
+- People.
+- Organizations.
+- Financial variables.
+- Market events.
+- Research findings.
+- Evidence.
+- Risks.
+- Assumptions.
+- Hypotheses.
+- Strategic objectives.
+- Dependencies.
+- Recommendations.
+
+Each entity type should have a distinct visual identity.
+
+Use meaningful node shapes, sizes, labels and visual treatments.
+
+### Relationship types
+
+Represent meaningful relationships:
+
+- Influences.
+- Supports.
+- Contradicts.
+- Depends on.
+- Threatens.
+- Enables.
+- Correlates with.
+- Derived from.
+- Associated with.
+- Supersedes.
+
+Connections should be directional when the relationship requires it.
+
+Label important relationships.
+
+### Graph interactions
+
+Implement:
+
+- Smooth zoom and pan.
+- Dragging and repositioning.
+- Node selection.
+- Contextual inspection panels.
+- Expand and collapse.
+- Relationship highlighting.
+- Search.
+- Filters.
+- Cluster exploration.
+- Path highlighting.
+- Neighborhood exploration.
+- Focus mode.
+- Reset view.
+- Navigation to associated evidence and decisions.
+
+### Advanced graph behaviour
+
+Implement meaningful clustering and relationship discovery.
+
+Allow users to investigate a particular entity and progressively reveal its connections.
+
+For example:
+
+CUSTOMER ACQUISITION COST
+→ MARKETING EXPENDITURE
+→ OPERATING COST
+→ CASH FLOW
+→ CAPITAL REQUIREMENTS
+→ EXPANSION FEASIBILITY
+
+When an assumption or variable changes, visually identify the affected dependencies.
+
+### Implementation
+
+Use an appropriate specialized graph library such as Cytoscape.js, Sigma.js or D3.js.
+
+Use WebGL rendering where beneficial for large graphs.
+
+The graph must be connected to actual structured application data.
+
+It must support empty states and progressively populated graphs.
+
+Do not fabricate relationships or pretend to discover connections that have not been established.
+
+---
+
+# PART VI — THE DECISION LAB
+
+## 7. Decision creation and management
+
+Build a comprehensive decision workspace.
+
+Users should be able to create, edit, duplicate, archive and version decisions.
+
+### Decision information
+
+Collect:
+
+- Decision title.
+- Problem description.
+- Organization or project.
+- Industry.
+- Geographic scope.
+- Decision owner.
+- Strategic objective.
+- Available capital or resources.
+- Budget.
+- Time horizon.
+- Risk tolerance.
+- Constraints.
+- Success criteria.
+- Relevant documents.
+- Supporting context.
+
+### Templates
+
+Provide templates for:
+
+- Startup investment.
+- Market expansion.
+- Product launch.
+- Technology architecture.
+- Enterprise transformation.
+- Capital allocation.
+- Hiring strategy.
+- Operational optimization.
+- Competitive strategy.
+- Business restructuring.
+
+Templates should accelerate decision creation without restricting custom decisions.
+
+### Decision workspace structure
+
+Each decision should contain:
+
+1. Overview.
+2. Objectives.
+3. Constraints.
+4. Research.
+5. Evidence.
+6. Knowledge graph.
+7. Agent investigation.
+8. Contradictions.
+9. Risks.
+10. Strategic alternatives.
+11. Financial analysis.
+12. Simulations.
+13. Recommendations.
+14. Approvals.
+15. Execution plan.
+16. Actual outcomes.
+17. Decision history.
+
+All these sections must refer to the same underlying decision record.
+
+---
+
+# PART VII — THE INTELLIGENCE ENGINE
+
+## 8. Research, evidence and knowledge extraction
+
+Build an intelligence engine that can work with user-provided information and supported external research integrations.
+
+### Supported inputs
+
+- PDF.
+- DOCX.
+- TXT.
+- CSV.
+- XLSX.
+- Research notes.
+- Structured datasets.
+- Relevant URLs where external retrieval is configured.
+
+### Processing capabilities
+
+Implement:
+
+- Document extraction.
+- Text segmentation.
+- Entity recognition.
+- Claim extraction.
+- Evidence classification.
+- Relationship extraction.
+- Source attribution.
+- Contradiction detection.
+- Relevant information retrieval.
+- Semantic search.
+- Evidence linking.
+
+### Evidence record structure
+
+Every evidence item should include:
+
+- Unique identifier.
+- Title.
+- Source type.
+- Source document or URL.
+- Publication date, when known.
+- Retrieval date.
+- Extracted claim.
+- Supporting passage.
+- Verification status.
+- Associated decision.
+- Related entities.
+- Confidence or reliability assessment, with explanation.
+
+### Mandatory epistemic classification
+
+Every substantive statement must be classified where appropriate as:
+
+FACT — directly supported by reliable evidence.
+
+ASSUMPTION — accepted temporarily for analysis.
+
+HYPOTHESIS — a proposition requiring investigation.
+
+RECOMMENDATION — a proposed action based on evidence and reasoning.
+
+Do not present assumptions as established facts.
+
+Do not invent sources, citations, research findings, quotations or verification results.
+
+If information cannot be verified, explicitly communicate that limitation.
+
+### External research
+
+Implement a modular research-provider architecture.
+
+Where supported APIs and permissions exist, allow agents to retrieve external information.
+
+Store source references and retrieval timestamps.
+
+If external retrieval is not configured, clearly distinguish document-based analysis from external research.
+
+---
+
+# PART VIII — THE MULTI-AGENT INTELLIGENCE SYSTEM
+
+## 9. Seven specialized agents
+
+Build a real multi-agent architecture, not seven decorative chatbot profiles.
+
+Use Gemini models through secure server-side integration, structured outputs and tool calling.
+
+Use an orchestration framework such as LangGraph where appropriate.
+
+### Agent 1: Strategist
+
+Responsibilities:
+
+- Understand the decision.
+- Define objectives.
+- Identify constraints.
+- Generate alternatives.
+- Establish evaluation criteria.
+- Identify missing information.
+
+### Agent 2: Researcher
+
+Responsibilities:
+
+- Investigate relevant questions.
+- Retrieve and organize evidence.
+- Extract claims.
+- Identify relevant entities.
+- Detect contradictory information.
+- Track source reliability.
+
+### Agent 3: Financial Analyst
+
+Responsibilities:
+
+- Evaluate financial assumptions.
+- Perform financial calculations.
+- Analyze costs and revenue.
+- Evaluate capital requirements.
+- Assess profitability and cash flow.
+- Compare financial alternatives.
+
+Use deterministic code for numerical calculations.
+
+Do not rely on language-model arithmetic for authoritative outputs.
+
+### Agent 4: Skeptic
+
+Responsibilities:
+
+- Challenge assumptions.
+- Identify logical weaknesses.
+- Search for counterarguments.
+- Identify unsupported conclusions.
+- Evaluate alternative explanations.
+- Highlight uncertainty.
+
+### Agent 5: Simulator
+
+Responsibilities:
+
+- Construct quantitative scenarios.
+- Run sensitivity analysis.
+- Evaluate alternative futures.
+- Perform probability-based simulations.
+- Identify key outcome drivers.
+
+### Agent 6: Risk Officer
+
+Responsibilities:
+
+- Identify financial risks.
+- Identify operational risks.
+- Identify technology risks.
+- Identify regulatory risks.
+- Evaluate third-party dependencies.
+- Assess business continuity.
+- Identify implementation risks.
+
+### Agent 7: Arbiter
+
+Responsibilities:
+
+- Compare agent findings.
+- Resolve disagreements where evidence permits.
+- Preserve unresolved uncertainty.
+- Synthesize findings.
+- Produce a defensible recommendation.
+- Explain why alternatives were rejected.
+
+The Arbiter must never manufacture agreement.
+
+### Orchestration requirements
+
+Implement:
+
+- Parallel agent execution where appropriate.
+- Task dependencies.
+- Structured inputs and outputs.
+- Agent permissions.
+- Tool restrictions.
+- Timeouts.
+- Retries.
+- Error handling.
+- Execution logs.
+- Token usage tracking.
+- Cost tracking where available.
+- Cancellation.
+- Resumable investigations where practical.
+
+Use explicit Pydantic or equivalent schemas.
+
+Each agent should return structured findings containing evidence references, assumptions, reasoning summaries, confidence, limitations and recommended next steps.
+
+### Agent Council visualization
+
+Build a real-time visual representation of agent activity.
+
+Show agents, tasks, connections, execution state, findings, disagreements and handoffs.
+
+Animated activity must correspond to real execution events.
+
+Do not simulate fake collaboration.
+
+---
+
+# PART IX — THE SIMULATION CHAMBER
+
+## 10. Advanced quantitative simulation environment
+
+Build an advanced environment for exploring alternative futures.
+
+It should feel like professional quantitative analysis software.
+
+### Scenario engine
+
+Support:
+
+- Base case.
+- Optimistic case.
+- Pessimistic case.
+- Custom cases.
+- Scenario comparison.
+- Time-horizon comparison.
+- Assumption changes.
+- Constraint changes.
+- Risk-adjusted evaluation.
+
+### Required visualizations
+
+Build interactive, appropriately labelled versions of:
+
+1. Monte Carlo simulation distributions.
+2. Probability density plots.
+3. Cumulative probability curves.
+4. Cash-flow trajectories.
+5. Revenue and profitability trajectories.
+6. Break-even analysis.
+7. Sensitivity analysis.
+8. Tornado charts.
+9. Risk-return analysis.
+10. Scenario comparison matrices.
+11. Capital allocation visualization.
+12. Confidence intervals.
+13. Uncertainty ranges.
+14. Outcome distributions.
+
+These must be genuine data visualizations, not static illustrations.
+
+### Interactive simulation controls
+
+Users should be able to adjust:
+
+- Capital allocation.
+- Budget.
+- Growth rate.
+- Customer acquisition cost.
+- Conversion rate.
+- Revenue.
+- Operating expenses.
+- Market size.
+- Interest rates.
+- Hiring costs.
+- Project duration.
+- Probability assumptions.
+
+Changes must recalculate dependent outputs.
+
+### Quantitative engine
+
+Use a suitable Python computational service or equivalent deterministic calculation engine.
+
+Implement appropriate models for:
+
+- Financial projections.
+- Cash-flow analysis.
+- Break-even.
+- Sensitivity.
+- Monte Carlo simulation.
+- Scenario evaluation.
+- Risk analysis.
+
+Document formulas, input variables, assumptions and limitations.
+
+Use reproducible random seeds when appropriate.
+
+### Simulation integrity
+
+Every simulation must record:
+
+- Input assumptions.
+- Model version.
+- Execution timestamp.
+- Calculation method.
+- Outputs.
+- Warnings.
+- Limitations.
+
+Clearly distinguish illustrative simulations from forecasts based on verified real-world data.
+
+Never imply that probability distributions guarantee future outcomes.
+
+---
+
+# PART X — DECISION DEPENDENCY ENGINE
+
+## 11. Living decision relationships
+
+Build a structured dependency system connecting decisions, assumptions, variables, constraints, risks and outcomes.
+
+For example:
+
+If customer acquisition cost increases by 25%, the system should be able to identify its effect on:
+
+- Marketing expenditure.
+- Operating expenses.
+- Cash flow.
+- Profitability.
+- Capital requirements.
+- Expansion feasibility.
+
+When a variable changes:
+
+1. Identify dependent nodes.
+2. Recalculate affected deterministic outputs.
+3. Mark affected assumptions.
+4. Identify potentially invalidated recommendations.
+5. Highlight downstream dependencies.
+6. Allow the user to inspect the impact chain.
+
+Do not merely regenerate a natural-language explanation.
+
+Use deterministic dependency propagation and calculation logic.
+
+Maintain a record of changes.
+
+---
+
+# PART XI — THE EXECUTION ROOM
+
+## 12. Turn decisions into action
+
+Approved decisions should be convertible into structured execution plans.
+
+Generate:
+
+- Objectives.
+- Milestones.
+- Tasks.
+- Owners.
+- Deadlines.
+- Dependencies.
+- Required resources.
+- Performance metrics.
+- Risks.
+- Approval requirements.
+
+### Visual experience
+
+Build:
+
+- Kanban board.
+- Timeline.
+- Milestone tracker.
+- Dependency view.
+- Progress indicators.
+- Task detail panels.
+- Risk and blocker tracking.
+
+Allow users to edit and manage execution plans.
+
+Show the relationship between the original decision and each execution item.
+
+External consequential actions must require appropriate human approval.
+
+Do not claim that tasks have been assigned, emails sent or external actions performed unless those integrations are actually configured and the action has succeeded.
+
+---
+
+# PART XII — THE REALITY MONITOR
+
+## 13. Prediction versus reality
+
+This module is a major source of long-term differentiation.
+
+KAIROS must not stop working once a recommendation is produced.
+
+It must be able to compare what it expected with what actually happened.
+
+### Track:
+
+- Original predictions.
+- Expected outcomes.
+- Original assumptions.
+- Predicted financial metrics.
+- Actual financial metrics.
+- Actual operational outcomes.
+- Deviations.
+- Unexpected events.
+- Evidence supporting actual observations.
+- Lessons learned.
+
+### Visualizations
+
+Implement:
+
+- Predicted versus actual timelines.
+- Forecast variance charts.
+- Error distributions.
+- Deviation indicators.
+- Assumption accuracy.
+- Prediction performance over time.
+- Outcome tracking.
+- Historical decision performance.
+
+### Learning loop
+
+Allow users to record actual results and evaluate past decisions.
+
+Identify patterns in forecasting errors and assumption failures.
+
+Preserve historical versions.
+
+Do not claim that the AI automatically retrains or improves its model unless a real evaluation and model-update mechanism exists.
+
+The system must distinguish between measured learning, user feedback and proposed improvements.
+
+---
+
+# PART XIII — RESEARCH LIBRARY AND DECISION ARCHIVE
+
+## 14. Research Library
+
+Build a centralized evidence repository.
+
+Include:
+
+- Document library.
+- Search.
+- Filters.
+- Tags.
+- Source metadata.
+- Document preview.
+- Extracted claims.
+- Associated decisions.
+- Connected entities.
+- Evidence reliability.
+- Version history.
+
+Allow users to search across relevant documents and evidence.
+
+### Decision Archive
+
+Store historical decisions with:
+
+- Decision details.
+- Original assumptions.
+- Evidence available at the time.
+- Agent findings.
+- Final recommendation.
+- Approval history.
+- Execution records.
+- Actual outcomes.
+- Lessons learned.
+
+Support search, filtering, sorting and historical comparisons.
+
+---
+
+# PART XIV — TECHNICAL ARCHITECTURE
+
+## 15. Engineering stack
+
+Choose a maintainable, modular architecture suitable for the available Google AI Studio environment.
+
+Preferred architecture:
+
+### Frontend
+
+- React.
+- TypeScript.
+- Next.js where supported.
+- Tailwind CSS.
+- shadcn/ui selectively.
+- Framer Motion for restrained transitions.
+- D3.js and a suitable graph library.
+- Recharts, Plotly or equivalent for analytical visualizations.
+- Three.js only where a genuinely useful visualization justifies it.
+
+### Backend
+
+Preferred:
+
+- Python.
+- FastAPI.
+- Pydantic.
+- LangGraph.
+- REST APIs.
+- WebSockets for live execution updates.
+
+If the available environment supports a different backend more reliably, select an appropriate alternative without compromising modularity, security or functionality.
+
+### AI integration
+
+- Gemini API.
+- Server-side model calls.
+- Structured output.
+- Function calling.
+- Tool orchestration.
+- Configurable model selection.
+- Token usage tracking.
+- Error handling.
+
+Never expose API keys in frontend code.
+
+### Database
+
+Preferred:
+
+- PostgreSQL.
+- pgvector for semantic search.
+- Relational data models.
+- Persistent decision records.
+- Evidence records.
+- Agent execution logs.
+- Simulation records.
+- Audit history.
+
+Firebase or another suitable managed service may be used where it materially improves implementation reliability.
+
+Do not use browser local storage as the primary database for a multi-user production-oriented application.
+
+### Background processing
+
+Use a suitable worker or job system for:
+
+- Long-running research.
+- Document processing.
+- Agent investigations.
+- Simulations.
+- Large graph operations.
+
+Provide progress updates and recoverable errors.
+
+### Cloud deployment
+
+Design for deployment on Google Cloud Run or an equivalent suitable hosting platform.
+
+Support environment-based configuration.
+
+Include database configuration, secret management, health checks and deployment documentation.
+
+---
+
+# PART XV — DATABASE AND DATA INTEGRITY
+
+## 16. Core data entities
+
+Design a coherent relational data model for:
+
+- Users.
+- Workspaces.
+- Memberships.
+- Decisions.
+- Decision versions.
+- Objectives.
+- Constraints.
+- Assumptions.
+- Hypotheses.
+- Evidence.
+- Sources.
+- Documents.
+- Entities.
+- Relationships.
+- Agent runs.
+- Agent tasks.
+- Agent findings.
+- Risks.
+- Alternatives.
+- Simulations.
+- Simulation inputs.
+- Simulation outputs.
+- Recommendations.
+- Approvals.
+- Execution plans.
+- Tasks.
+- Milestones.
+- Actual observations.
+- Predictions.
+- Outcomes.
+- Audit events.
+
+Enforce referential integrity.
+
+Support workspace-level access control.
+
+Keep historical records and versioning.
+
+Use migrations and clear data access boundaries.
+
+---
+
+# PART XVI — SECURITY AND GOVERNANCE
+
+## 17. Enterprise-grade safeguards
+
+Implement appropriate protections:
+
+- Authentication.
+- Authorization.
+- Workspace isolation.
+- Server-side secrets.
+- Input validation.
+- Secure file uploads.
+- File type and size validation.
+- Rate limiting.
+- Error handling.
+- Audit logs.
+- Permission checks.
+- Agent tool restrictions.
+- Human approval for consequential actions.
+- Secure session management.
+- Safe handling of external content.
+
+Treat uploaded documents, retrieved websites and third-party content as untrusted data.
+
+Defend against prompt injection and malicious instructions embedded in documents.
+
+Never allow external document content to override system instructions or agent permissions.
+
+Do not expose sensitive workspace information across users.
+
+---
+
+# PART XVII — ADVANCED VISUAL EXPERIENCE REQUIREMENTS
+
+## 18. The application must not use basic charts as a substitute for analytical visualization
+
+This section is mandatory.
+
+Build the following visual experiences as actual working components.
+
+### A. Intelligence network
+
+A large, interactive, zoomable knowledge graph with clusters, directional relationships, contextual inspection and evidence navigation.
+
+### B. Scenario simulation
+
+Multi-scenario comparisons, probability distributions, Monte Carlo outputs, sensitivity analysis, cash-flow trajectories and interactive parameter controls.
+
+### C. Agent orchestration
+
+A visual agent network with live execution states, task dependencies, information exchange and disagreement inspection.
+
+### D. Decision impact analysis
+
+Interactive dependency chains that reveal how changes to one variable affect other variables and strategic outcomes.
+
+### E. Executive intelligence
+
+An information-dense command centre with an intelligence canvas, decision activity, unresolved risks and meaningful metrics.
+
+### F. Prediction and reality
+
+Forecast-versus-actual comparisons, variance analysis, anomaly indicators and outcome timelines.
+
+### G. Strategic execution
+
+Interactive timelines, milestones, task dependencies, progress tracking and operational risk indicators.
+
+### Visual quality standard
+
+Every visualization must answer a meaningful analytical question.
+
+Do not use charts just because a dashboard appears empty.
+
+For every visualization, ask:
+
+1. What information does it communicate?
+2. Where does its data originate?
+3. Can the user interact with it?
+4. What happens when its underlying data changes?
+5. Can the user inspect its source or calculation?
+6. Does it improve the user's decision-making?
+
+If a visualization does not serve a meaningful purpose, do not include it.
+
+---
+
+# PART XVIII — FUNCTIONALITY AND INTERACTION STANDARDS
+
+## 19. No dead interfaces
+
+Every visible control must perform its advertised action.
+
+Implement:
+
+- Working navigation.
+- Functional forms.
+- Search.
+- Filters.
+- Sorting.
+- Pagination where needed.
+- Create, edit and delete operations.
+- Confirmation dialogs.
+- File uploads.
+- Document previews.
+- Agent execution.
+- Simulation controls.
+- Persistent records.
+- Loading states.
+- Empty states.
+- Error states.
+- Success feedback.
+- Notifications.
+- Responsive layouts.
+- Keyboard accessibility.
+- Tooltips where useful.
+
+Do not build buttons that do nothing.
+
+Do not create fake loading animations.
+
+Do not show success messages for operations that have failed.
+
+Do not present hardcoded demo data as real user data.
+
+If demo mode is provided, label it explicitly.
+
+---
+
+# PART XIX — ENGINEERING QUALITY AND TESTING
+
+## 20. Test the actual application
+
+Create a maintainable codebase with:
+
+- Clear component boundaries.
+- Modular services.
+- Typed API contracts.
+- Reusable design components.
+- Database migrations.
+- Environment configuration.
+- Logging.
+- Error boundaries.
+- Meaningful documentation.
+
+Test the critical workflows:
+
+1. Application startup.
+2. Authentication.
+3. Workspace creation.
+4. Decision creation and editing.
+5. Document upload and extraction.
+6. Evidence persistence.
+7. Agent execution.
+8. Agent error handling.
+9. Simulation calculations.
+10. Graph creation and relationships.
+11. Dependency propagation.
+12. Recommendation generation.
+13. Approval workflows.
+14. Execution plan management.
+15. Actual outcome recording.
+16. Historical decision retrieval.
+
+Add automated tests and end-to-end tests where supported.
+
+Fix build errors, broken routes, missing imports and major runtime failures.
+
+Never claim tests passed unless they were actually executed.
+
+---
+
+# PART XX — IMPLEMENTATION PRIORITIES
+
+## 21. Build the complete integrated product
+
+The order of implementation is an engineering decision, not a restriction on the final scope.
+
+Build the entire application as one coherent system.
+
+Prioritize the following foundations:
+
+1. Application structure and design system.
+2. Persistent database and workspace model.
+3. Decision management.
+4. Evidence and document processing.
+5. Intelligence graph.
+6. Agent orchestration.
+7. Deterministic simulation engine.
+8. Dependency engine.
+9. Recommendation and approval workflow.
+10. Execution management.
+11. Reality monitoring.
+12. Research and historical archive.
+13. Security, tests and deployment configuration.
+
+Connect all modules through shared data models and services.
+
+Do not implement these as separate disconnected prototypes.
+
+Do not stop after the first screen.
+
+Do not return only a technical architecture document.
+
+Do not replace actual implementation with pseudocode.
+
+Do not simplify the product into a chatbot with a dashboard.
+
+When an external service is unavailable, build the integration boundary and clearly identify what needs configuration.
+
+If the environment imposes a hard limitation, implement the best functional alternative and document the exact limitation.
+
+---
+
+# PART XXI — FINAL PRODUCT ACCEPTANCE CRITERIA
+
+## 22. What constitutes a successful KAIROS build?
+
+The project is successful only when it delivers a coherent, usable application with:
+
+- A premium executive intelligence interface.
+- A functional decision workspace.
+- Persistent decisions and evidence.
+- A genuinely interactive intelligence graph.
+- A functioning multi-agent architecture.
+- Real agent execution visibility.
+- Deterministic quantitative calculations.
+- Interactive scenario simulations.
+- A structured dependency engine.
+- Evidence-backed recommendations.
+- Human-controlled approvals.
+- Execution planning.
+- Prediction-versus-reality monitoring.
+- Research and decision archives.
+- Secure API handling.
+- Appropriate data persistence.
+- Functional navigation and controls.
+- Tested critical workflows.
+- Clear configuration and deployment instructions.
+
+A beautiful frontend without working backend functionality is not a completed product.
+
+A functioning backend with a generic, unfinished interface is also not a completed product.
+
+Both engineering quality and visual sophistication matter.
+
+---
+
+# PART XXII — THE FINAL CREATIVE DIRECTION
+
+## 23. The experience we are trying to create
+
+Imagine an executive opening KAIROS.
+
+They enter a complex business problem.
+
+Instead of receiving a generic AI-generated paragraph, they enter an intelligent environment.
+
+They see the relevant evidence and its connections.
+
+They observe specialized agents investigating the problem.
+
+They inspect disagreements and uncertainty.
+
+They enter the Simulation Chamber and explore multiple possible futures.
+
+They change assumptions and see calculated consequences.
+
+They compare alternatives.
+
+They approve a recommendation.
+
+They turn it into an execution plan.
+
+Months later, they return to discover what actually happened and compare reality with the original prediction.
+
+That is the experience.
+
+KAIROS should feel like an entirely new category of decision intelligence software.
+
+It should communicate intelligence through its information architecture, analytical depth, interaction design and engineering — not through flashy decoration.
+
+**The objective is not to make the application look futuristic. The objective is to make genuinely advanced software feel intuitive, powerful and extraordinarily well designed.**
+
+# FINAL INSTRUCTION
+
+Start building KAIROS from a completely blank project.
+
+Make the required architectural decisions.
+
+Generate the complete application structure.
+
+Implement the frontend, backend, database integration, AI services, agent orchestration, analytical engines, visualizations and core workflows.
+
+Connect the modules.
+
+Run the available checks.
+
+Fix errors.
+
+Provide clear setup instructions for any external credentials or infrastructure that cannot be configured automatically.
+
+Do not respond with a phased roadmap.
+
+Do not ask me which screen to build first.
+
+Do not stop at a prototype or static dashboard.
+
+**BUILD KAIROS// — THE COMPLETE DECISION INTELLIGENCE PLATFORM.**

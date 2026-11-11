@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@theme {
+  --color-obsidian: #111315;
+  --color-graphite: #202326;
+  --color-elevated: #292d30;
+  --color-elevated-light: #343a3e;
+  --color-champagne: #c0a477;
+  --color-champagne-light: #d6be99;
+  --color-champagne-muted: #8f7954;
+  --color-ivory: #e7e2d9;
+  --color-steel: #777e80;
+  --color-sage: #667f72;
+  --color-sage-light: #88a394;
+  --color-rust: #c85a5a;
+  --font-mono: "IBM Plex Mono", monospace;
+  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-serif: "Newsreader", Georgia, serif;
+}
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  background-color: #111315;
+  color: #e7e2d9;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom scrollbars for executive terminal density */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #111315;
+}
+::-webkit-scrollbar-thumb {
+  background: #292d30;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #777e80;
+}
+
+.mono {
+  font-family: "IBM Plex Mono", monospace;
+}
+
+.serif {
+  font-family: "Newsreader", Georgia, serif;
+}
+
+/* Subtle grid line background for executive intelligence terminal */
+.bg-terminal-grid {
+  background-size: 32px 32px;
+  background-image: 
+    linear-gradient(to right, rgba(231, 226, 217, 0.02) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(231, 226, 217, 0.02) 1px, transparent 1px);
+}

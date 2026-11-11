@@ -1,0 +1,6 @@
+{
+  "name": "KAIROS// Decision OS",
+  "description": "The Operating System for Strategic Decisions — Intelligence Network, Multi-Agent Council, Quantitative Simulation, and Reality Calibration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
